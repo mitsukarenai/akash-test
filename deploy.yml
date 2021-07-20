@@ -3,7 +3,7 @@ version: "2.0"
 
 services:
   web:
-    image: mitsukarenai/akash-test:release-v0.2
+    image: litespeedtech/openlitespeed:latest
     expose:
       - port: 80
         as: 80
