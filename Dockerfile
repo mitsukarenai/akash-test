@@ -1,4 +1,3 @@
-FROM nginx:latest
+FROM litespeedtech/openlitespeed:latest
 
-COPY ./app /usr/share/nginx/html/   
-   
+COPY ./app /var/www/vhosts/localhost/html/   
